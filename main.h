@@ -82,7 +82,7 @@ int flags, int width, int precision, int size);
 int write_num(int ind, char bff[],
 int flags, int width, int precision, int length, char padd, char extra_c);
 int write_pointer(char buffer[], int ind, int length,
-int flags, int width, char padd, int padd_start, char extra_c);
+int width, int flags, char padd, char extra_c, int padd_start);
 int write_unsgnd(int is_negative, int ind, char buffer[],
 int flags, int width, int precision, int size);
 /* UTILS */
